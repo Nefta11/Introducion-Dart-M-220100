@@ -11,7 +11,12 @@
 	<img src="images/utxjlogo.jpg" alt="UTXJ Logo" width="350" style="display:inline-block; vertical-align:middle;"/>
 </p>
 
+
 <div align="center"><h2>Universidad Tecnológica de Xicotepec de Juárez</h2></div>
+<div align="center" style="margin: 20px 0;">
+	<img src="https://img.shields.io/badge/Dart-2.19-blue?logo=dart&logoColor=white" alt="Dart Badge" style="vertical-align:middle; margin-right:10px; height:40px;"/>
+	<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Dart-Dark.svg" alt="Dart Icon" width="60" style="vertical-align:middle; margin-left:10px;"/>
+</div>
 
 **Materia:** Desarrollo Móvil Integral  
 **Alumno:** Neftali Arturo Hernandez Vergara  
