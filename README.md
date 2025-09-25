@@ -8,7 +8,7 @@
 
 <div align="center"><h2>Universidad Tecnológica de Xicotepec de Juárez</h2></div>
 
-**Materia:**   
+**Materia:** Desarrollo Móvil Integral  
 **Alumno:** Neftali Arturo Hernandez Vergara  
 **Matrícula:** 220100  
 **Práctica:** Ejercicios de Introducción a Dart  
