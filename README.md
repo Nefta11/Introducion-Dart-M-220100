@@ -2,11 +2,6 @@
 # Introducción a Dart M-220100
 
 <p align="center">
-	<img src="https://img.shields.io/badge/Dart-2.19-blue?logo=dart&logoColor=white" alt="Dart Badge"/>
-	<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Dart-Dark.svg" alt="Dart Icon" width="40" style="vertical-align:middle; margin-left:10px;"/>
-</p>
-
-<p align="center">
 	<img src="images/ticlogo.jpg" alt="TIC Logo" width="320" style="display:inline-block; vertical-align:middle; margin-right:800px;"/>
 	<img src="images/utxjlogo.jpg" alt="UTXJ Logo" width="350" style="display:inline-block; vertical-align:middle;"/>
 </p>
