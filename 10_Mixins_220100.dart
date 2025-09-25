@@ -1,3 +1,16 @@
+void main() {
+  final speedy = Guepardo();
+  speedy.correr();
+
+  final tweety = Canario();
+  tweety.volar();
+  tweety.cantar();
+
+  final nemo = PezPayaso();
+  nemo.nadar();
+  nemo.esconderse();
+}
+
 abstract class Animal {}
 
 abstract class Mamifero extends Animal {}
@@ -7,39 +20,27 @@ abstract class Ave extends Animal {}
 abstract class Pez extends Animal {}
 
 mixin Volador {
-  void volar() => print('estoy volando!');
+  void volar() => print('¡Estoy volando!');
 }
 
 mixin Caminante {
-  void caminar() => print('estoy caminando!');
+  void correr() => print('¡Estoy corriendo muy rápido!');
 }
 
 mixin Nadador {
-  void nadar() => print('estoy nadando!');
+  void nadar() => print('¡Estoy nadando!');
 }
 
-class Delfin extends Mamifero with Nadador {}
-
-class Murcielago extends Mamifero with Volador, Caminante {}
-
-class Gato extends Mamifero with Caminante {}
-
-class Paloma extends Ave with Caminante, Volador {}
-
-class Pato extends Ave with Caminante, Volador, Nadador {}
-
-class Tiburon extends Pez with Nadador {}
-
-class PezVolador extends Pez with Nadador, Volador {}
-
-void main() {
-  final flipper = Delfin();
-  flipper.nadar();
-  final batman = Murcielago();
-  batman.caminar();
-  batman.volar();
-  final namor = Pato();
-  namor.caminar();
-  namor.volar();
-  namor.nadar();
+mixin Cantor {
+  void cantar() => print('¡Estoy cantando!');
 }
+
+mixin Escondedor {
+  void esconderse() => print('¡Me estoy escondiendo!');
+}
+
+class Guepardo extends Mamifero with Caminante {}
+
+class Canario extends Ave with Volador, Cantor {}
+
+class PezPayaso extends Pez with Nadador, Escondedor {}
